@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A S Yazhini | ECE Engineer</title>
+  <title>A S Yazhini | Electronics & Communication Engineer</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -13,21 +13,20 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
     body { font-family: 'Inter', sans-serif; }
     .heading { font-family: 'Space Grotesk', sans-serif; }
-    .neon { text-shadow: 0 0 25px #00f5ff, 0 0 50px #00f5ff; }
-    .project-card:hover { transform: translateY(-15px) scale(1.03); }
-    .skill-pill:hover { transform: scale(1.12) rotate(3deg); background: #00f5ff; color: black; }
+    .neon { text-shadow: 0 0 20px #22d3ee, 0 0 40px #22d3ee; }
+    .card-hover:hover { transform: translateY(-12px); transition: all 0.4s ease; }
   </style>
 </head>
-<body class="bg-[#05050a] text-white overflow-x-hidden">
+<body class="bg-[#0a0a0f] text-white overflow-x-hidden">
 
   <!-- Navbar -->
-  <nav class="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-lg border-b border-cyan-500/30">
+  <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-lg border-b border-cyan-500/20">
     <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
       <div class="flex items-center gap-3">
-        <div class="w-11 h-11 bg-gradient-to-br from-pink-400 to-purple-500 text-black font-bold text-3xl flex items-center justify-center rounded-2xl">AY</div>
-        <span class="heading text-3xl font-bold">A S Yazhini</span>
+        <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-purple-500 text-black font-bold text-2xl flex items-center justify-center rounded-xl">AY</div>
+        <span class="heading text-2xl font-semibold">A S Yazhini</span>
       </div>
-      <div class="hidden md:flex gap-8 text-lg">
+      <div class="hidden md:flex gap-10 text-lg font-medium">
         <a href="#about" class="hover:text-cyan-400">About</a>
         <a href="#education" class="hover:text-cyan-400">Education</a>
         <a href="#projects" class="hover:text-cyan-400">Projects</a>
@@ -38,15 +37,15 @@
   </nav>
 
   <!-- Hero -->
-  <section class="min-h-screen flex items-center pt-20 bg-gradient-to-br from-[#0a0a1f] to-black">
+  <section class="min-h-screen flex items-center pt-20 bg-gradient-to-br from-[#0f0f1f] to-[#0a0a0f]">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <div data-aos="fade-right">
-        <h1 class="heading text-7xl md:text-8xl font-bold neon">A S YAZHINI</h1>
-        <p class="text-3xl text-cyan-400 mt-4">Electronics & Communication Engineering Student</p>
-        <p class="text-xl text-gray-400 mt-3">Dr. N.G.P. Institute of Technology • 2023-2027</p>
+      <div data-aos="fade-right" class="space-y-6">
+        <h1 class="heading text-6xl md:text-7xl font-bold neon leading-tight">A S YAZHINI</h1>
+        <p class="text-3xl text-cyan-400">Electronics & Communication Engineering Student</p>
+        <p class="text-xl text-gray-400">Dr. N.G.P. Institute of Technology | 2023 - 2027</p>
         
-        <div class="mt-8 space-y-3 text-lg">
-          <p><i class="fas fa-phone text-cyan-400"></i> +91 9629696476</p>
+        <div class="space-y-2 text-lg">
+          <p><i class="fas fa-phone text-cyan-400"></i> +91 96296 96476</p>
           <p><i class="fas fa-envelope text-cyan-400"></i> yazhinishanmugaganesh@gmail.com</p>
           <p><i class="fas fa-map-marker-alt text-cyan-400"></i> 3/196G, Nehru Nagar, Kangeyampalayam, Sulur - 641 401</p>
         </div>
@@ -54,14 +53,14 @@
       
       <div data-aos="fade-left" class="flex justify-center">
         <img src="https://ibb.co/V0T9K265" 
-             alt="A S Yazhini" 
-             class="w-80 h-80 md:w-96 md:h-96 object-cover rounded-3xl border-8 border-cyan-400 shadow-2xl">
+             alt="A S Yazhini"
+             class="w-80 h-80 md:w-[380px] md:h-[380px] object-cover rounded-3xl border-8 border-cyan-400/50 shadow-2xl">
       </div>
     </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="py-24 bg-[#0a0a12]">
+  <section id="about" class="py-24 bg-[#0f0f1a]">
     <div class="max-w-5xl mx-auto px-6">
       <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-10">Profile</h2>
       <p class="text-lg text-gray-300 max-w-4xl mx-auto text-center leading-relaxed">
@@ -76,35 +75,35 @@
     <div class="max-w-5xl mx-auto px-6">
       <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Education</h2>
       <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        <div data-aos="fade-up" class="bg-[#111118] p-8 rounded-3xl border border-white/10">
-          <h3 class="font-bold text-xl">Bachelor of Electronics and Communication Engineering</h3>
-          <p class="text-cyan-400">Dr.N.G.P. Institute Of Technology</p>
-          <p class="mt-2">2023 - 2027</p>
-          <p class="text-2xl font-semibold text-cyan-400 mt-6">CGPA: 8.1 (Current)</p>
+        <div data-aos="fade-up" class="bg-[#16161f] p-10 rounded-3xl card-hover border border-white/10">
+          <h3 class="font-bold text-2xl">Bachelor of Electronics and Communication Engineering</h3>
+          <p class="text-cyan-400 mt-2">Dr. N.G.P. Institute of Technology</p>
+          <p class="mt-4">2023 - 2027</p>
+          <p class="text-3xl font-semibold text-cyan-400 mt-6">CGPA: 8.1 (Current)</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="100" class="bg-[#111118] p-8 rounded-3xl border border-white/10">
-          <h3 class="font-bold text-xl">Schooling</h3>
-          <p class="text-cyan-400">Kendriya Vidyalaya, AFS, Sulur</p>
-          <p class="mt-2">2011 - 2023</p>
+        <div data-aos="fade-up" data-aos-delay="150" class="bg-[#16161f] p-10 rounded-3xl card-hover border border-white/10">
+          <h3 class="font-bold text-2xl">Schooling</h3>
+          <p class="text-cyan-400 mt-2">Kendriya Vidyalaya, AFS, Sulur</p>
+          <p class="mt-4">2011 - 2023</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="py-24 bg-[#0a0a12]">
+  <section id="projects" class="py-24 bg-[#0f0f1a]">
     <div class="max-w-7xl mx-auto px-6">
       <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Projects</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div data-aos="fade-up" class="project-card bg-[#111118] p-8 rounded-3xl border border-white/10">
-          <h3 class="font-bold text-xl">GSM Based Security System</h3>
-          <p class="text-sm text-gray-500">First Year Project</p>
-          <p class="text-gray-400 mt-4">The project was designed and implemented using Arduino microcontroller technology and ultrasonic sensor capabilities.</p>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div data-aos="fade-up" class="bg-[#16161f] p-8 rounded-3xl card-hover border border-white/10">
+          <h3 class="text-xl font-bold">GSM Based Security System</h3>
+          <p class="text-cyan-400 text-sm mt-1">First Year Project</p>
+          <p class="text-gray-400 mt-5">Designed and implemented using Arduino microcontroller technology and ultrasonic sensor capabilities.</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="100" class="project-card bg-[#111118] p-8 rounded-3xl border border-white/10">
-          <h3 class="font-bold text-xl">Garbage Segregation Using Image Processing</h3>
-          <p class="text-sm text-gray-500">Second Year Project</p>
-          <p class="text-gray-400 mt-4">The system was developed using TensorFlow, NumPy, Matplotlib and Convolution Neural Network (CNN) to classify wastes into biodegradable and non-biodegradable categories.</p>
+        <div data-aos="fade-up" data-aos-delay="150" class="bg-[#16161f] p-8 rounded-3xl card-hover border border-white/10">
+          <h3 class="text-xl font-bold">Garbage Segregation Using Image Processing</h3>
+          <p class="text-cyan-400 text-sm mt-1">Second Year Project</p>
+          <p class="text-gray-400 mt-5">Developed using TensorFlow, NumPy, Matplotlib and Convolution Neural Network (CNN) to classify wastes into biodegradable and non-biodegradable categories.</p>
         </div>
       </div>
     </div>
@@ -114,15 +113,15 @@
   <section id="skills" class="py-24">
     <div class="max-w-6xl mx-auto px-6">
       <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Expertise</h2>
-      <div class="flex flex-wrap justify-center gap-6">
-        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Programming</div>
-        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Arduino Board Interfacing</div>
-        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">ESP32 Interfacing</div>
-        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Sensor and Actuator Interfacing</div>
+      <div class="flex flex-wrap justify-center gap-5">
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl text-lg">Programming</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl text-lg">Arduino Board Interfacing</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl text-lg">ESP32 Interfacing</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl text-lg">Sensor & Actuator Interfacing</div>
       </div>
 
       <h3 class="text-center text-2xl text-cyan-400 mt-16 mb-8">Languages Known</h3>
-      <div class="flex justify-center gap-12 text-2xl">
+      <div class="flex justify-center gap-16 text-2xl">
         <div>Tamil</div>
         <div>English</div>
         <div>Hindi</div>
@@ -131,13 +130,13 @@
   </section>
 
   <!-- Internship -->
-  <section id="experience" class="py-24 bg-[#0a0a12]">
+  <section id="experience" class="py-24 bg-[#0f0f1a]">
     <div class="max-w-5xl mx-auto px-6">
       <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Internship</h2>
-      <div class="bg-[#111118] p-10 rounded-3xl border border-white/10">
+      <div class="bg-[#16161f] p-10 rounded-3xl card-hover border border-white/10 max-w-4xl mx-auto">
         <h3 class="text-2xl font-bold">Robomiracle Technologies Private Limited</h3>
         <p class="text-cyan-400">15 Days Internship</p>
-        <ul class="mt-6 space-y-4 text-gray-300 list-disc pl-6">
+        <ul class="mt-8 space-y-4 text-gray-300 list-disc pl-6">
           <li>Learning about IoT devices, sensors and actuators.</li>
           <li>Developed a software to detect hand gestures.</li>
           <li>Gained knowledge about sensor and actuator interfacing with Arduino Uno microcontroller board.</li>
