@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A S Yazhini | ECE Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .heading { font-family: 'Space Grotesk', sans-serif; }
+    .neon { text-shadow: 0 0 25px #00f5ff, 0 0 50px #00f5ff; }
+    .project-card:hover { transform: translateY(-15px) scale(1.03); }
+    .skill-pill:hover { transform: scale(1.12) rotate(3deg); background: #00f5ff; color: black; }
+  </style>
+</head>
+<body class="bg-[#05050a] text-white overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-lg border-b border-cyan-500/30">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 bg-gradient-to-br from-pink-400 to-purple-500 text-black font-bold text-3xl flex items-center justify-center rounded-2xl">AY</div>
+        <span class="heading text-3xl font-bold">A S Yazhini</span>
+      </div>
+      <div class="hidden md:flex gap-8 text-lg">
+        <a href="#about" class="hover:text-cyan-400">About</a>
+        <a href="#projects" class="hover:text-cyan-400">Projects</a>
+        <a href="#skills" class="hover:text-cyan-400">Skills</a>
+        <a href="#experience" class="hover:text-cyan-400">Experience</a>
+        <a href="#contact" class="hover:text-cyan-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center pt-20 bg-gradient-to-br from-[#0a0a1f] to-black">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div data-aos="fade-right">
+        <h1 class="heading text-7xl md:text-8xl font-bold neon">A S YAZHINI</h1>
+        <p class="text-3xl text-cyan-400 mt-4">Electronics & Communication Engineering Student</p>
+        <p class="text-xl text-gray-400 mt-3">Dr. N.G.P. Institute of Technology • Batch 2023-2027</p>
+        
+        <div class="mt-8 space-y-3 text-lg">
+          <p><i class="fas fa-phone text-cyan-400"></i> <a href="tel:9629696476" class="hover:text-cyan-400">+91 9629696476</a></p>
+          <p><i class="fas fa-envelope text-cyan-400"></i> <a href="mailto:yazhinishanmugaganesh@gmail.com" class="hover:text-cyan-400">yazhinishanmugaganesh@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt text-cyan-400"></i> 3/196G, Nehru Nagar, Kangeyampalayam, Sulur - 641 401</p>
+        </div>
+      </div>
+      
+      <div data-aos="fade-left" class="flex justify-center">
+        <img src="https://i.ibb.co/gZT4P3SB/IMG-20250917-WA0005-1.jpg" 
+             alt="A S Yazhini" 
+             class="w-80 h-80 md:w-96 md:h-96 object-cover rounded-3xl border-8 border-cyan-400 shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-[#0a0a12]">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-10">Profile</h2>
+      <p class="text-lg text-gray-300 max-w-4xl mx-auto text-center leading-relaxed">
+        I am a highly dedicated and goal-oriented engineering student with a strong ability to understand complex technical concepts and translate them into clear, practical solutions. 
+        My learning style combines consistent self-driven study with hands-on project experience, including work with ESP32-CAM modules, web development, and embedded systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Education</h2>
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div data-aos="fade-up" class="bg-[#111118] p-8 rounded-3xl border border-white/10">
+          <h3 class="font-bold text-xl">Bachelor of Electronics and Communication Engineering</h3>
+          <p class="text-cyan-400">Dr. N.G.P. Institute of Technology</p>
+          <p class="mt-2">2023 - 2027</p>
+          <p class="text-2xl font-semibold text-cyan-400 mt-4">CGPA: 8.1 (Current)</p>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100" class="bg-[#111118] p-8 rounded-3xl border border-white/10">
+          <h3 class="font-bold text-xl">Schooling</h3>
+          <p class="text-cyan-400">Kendriya Vidyalaya, AFS, Sulur</p>
+          <p class="mt-2">2011 - 2023</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-24 bg-[#0a0a12]">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div data-aos="fade-up" class="project-card bg-[#111118] p-8 rounded-3xl border border-white/10">
+          <h3 class="font-bold text-xl">GSM Based Security System</h3>
+          <p class="text-sm text-gray-500">First Year Project (2023-2024)</p>
+          <p class="text-gray-400 mt-4">Designed and implemented using Arduino microcontroller and ultrasonic sensor.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100" class="project-card bg-[#111118] p-8 rounded-3xl border border-white/10">
+          <h3 class="font-bold text-xl">Garbage Segregation Using Image Processing</h3>
+          <p class="text-sm text-gray-500">Second Year Project (2024-2025)</p>
+          <p class="text-gray-400 mt-4">Developed using TensorFlow, NumPy, Matplotlib and Convolution Neural Network (CNN) to classify biodegradable and non-biodegradable waste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Expertise</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Programming</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Arduino Interfacing</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">ESP32 Interfacing</div>
+        <div class="skill-pill bg-white/10 px-8 py-5 rounded-3xl">Sensor & Actuator Interfacing</div>
+      </div>
+      
+      <h3 class="text-center text-2xl text-cyan-400 mt-16 mb-8">Languages Known</h3>
+      <div class="flex justify-center gap-12 text-2xl">
+        <div>🇮🇳 Tamil</div>
+        <div>🇬🇧 English</div>
+        <div>🇮🇳 Hindi</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internship -->
+  <section id="experience" class="py-24 bg-[#0a0a12]">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">Internship</h2>
+      <div class="bg-[#111118] p-10 rounded-3xl border border-white/10">
+        <h3 class="text-2xl font-bold">Robomiracle Technologies Private Limited</h3>
+        <p class="text-cyan-400">15 Days Internship</p>
+        <ul class="mt-6 space-y-3 text-gray-300 list-disc pl-6">
+          <li>Learning about IoT devices, sensors and actuators.</li>
+          <li>Developed a software to detect hand gestures.</li>
+          <li>Gained knowledge about sensor and actuator interfacing with Arduino Uno.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section id="contact" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 data-aos="fade-up" class="heading text-5xl font-bold text-center mb-12">References</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-[#111118] p-8 rounded-3xl">
+          <p class="font-semibold">Ms. P. Nivetha M.E.</p>
+          <p class="text-cyan-400">IIPC Coordinator</p>
+          <p>Phone: 95665 20969</p>
+        </div>
+        <div class="bg-[#111118] p-8 rounded-3xl">
+          <p class="font-semibold">Dr. K. Sakthisudan M.E., Ph.D</p>
+          <p class="text-cyan-400">Professor</p>
+          <p>Phone: 73390 09998</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
